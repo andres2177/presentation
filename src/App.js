@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Mi Presentación</h1>
+        <h1>Mi Presentación 2</h1>
         <img src="src/foto.png" alt="perfil" />
         <p>
     Andres Vela Ilafaya
