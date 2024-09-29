@@ -1,55 +1,75 @@
-body {
-  background-color: #f4f4f4;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.App {
-  width: 600px; /* Ancho fijo */
-  margin: 50px auto; /* Centrado vertical y horizontal */
+.curriculum-container {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  color: #333;
 }
 
-.App-header {
+.header {
   text-align: center;
-}
-
-.profile-image {
-  width: 150px; /* Tamaño fijo */
-  height: 150px; /* Tamaño fijo */
-  border-radius: 50%; /* Forma circular */
-  margin: 20px 0;
-}
-
-.name {
-  font-size: 1.5rem; /* Tamaño de fuente fijo */
-  font-weight: bold;
-  color: #333;
-}
-
-h1 {
-  color: #007bff; /* Color para el título principal */
-}
-
-h2 {
-  border-bottom: 2px solid #007bff; /* Borde inferior */
+  border-bottom: 2px solid #ccc;
   padding-bottom: 10px;
-  color: #333;
 }
 
-.education-list {
-  list-style-type: none; /* Sin viñetas */
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.header h2 {
+  font-size: 24px;
+  margin: 5px 0 15px 0;
+  color: #2980b9;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.contact-info strong {
+  color: #2980b9;
+}
+
+.hobbies h3 {
+  font-size: 22px;
+  color: #2c3e50;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.hobbies ul {
+  list-style-type: none;
   padding: 0;
 }
 
-.education-list li {
-  background-color: #e9ecef; /* Color de fondo para los ítems */
-  margin: 5px 0; /* Margen entre los ítems */
-  padding: 10px; /* Relleno interno */
-  border-radius: 5px; /* Bordes redondeados */
+.hobbies li {
+  font-size: 18px;
+  margin: 5px 0;
+  padding-left: 15px;
+  position: relative;
 }
 
+.hobbies li::before {
+  content: "•";
+  color: #2980b9;
+  position: absolute;
+  left: 0;
+}
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px auto;
+  display: block;
+}
