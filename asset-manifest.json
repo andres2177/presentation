@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/presentation.github.io/static/css/main.565eadea.css",
-    "main.js": "/presentation.github.io/static/js/main.c0605b37.js",
-    "static/js/453.dbd3a19a.chunk.js": "/presentation.github.io/static/js/453.dbd3a19a.chunk.js",
-    "static/media/mi_foto.jpg": "/presentation.github.io/static/media/mi_foto.7380f307ce221faa06d2.jpg",
-    "index.html": "/presentation.github.io/index.html",
-    "main.565eadea.css.map": "/presentation.github.io/static/css/main.565eadea.css.map",
-    "main.c0605b37.js.map": "/presentation.github.io/static/js/main.c0605b37.js.map",
-    "453.dbd3a19a.chunk.js.map": "/presentation.github.io/static/js/453.dbd3a19a.chunk.js.map"
+    "main.css": "/presentation/static/css/main.565eadea.css",
+    "main.js": "/presentation/static/js/main.e16a7ba0.js",
+    "static/js/453.dbd3a19a.chunk.js": "/presentation/static/js/453.dbd3a19a.chunk.js",
+    "static/media/mi_foto.jpg": "/presentation/static/media/mi_foto.7380f307ce221faa06d2.jpg",
+    "index.html": "/presentation/index.html",
+    "main.565eadea.css.map": "/presentation/static/css/main.565eadea.css.map",
+    "main.e16a7ba0.js.map": "/presentation/static/js/main.e16a7ba0.js.map",
+    "453.dbd3a19a.chunk.js.map": "/presentation/static/js/453.dbd3a19a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.565eadea.css",
-    "static/js/main.c0605b37.js"
+    "static/js/main.e16a7ba0.js"
   ]
 }
